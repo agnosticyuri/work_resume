@@ -1,7 +1,7 @@
 # work_resume
 
 Summary of point cloud processing and preprocessing scripts for PointNET++ training and BIM (Building information model) creation via rooftop extraction from each LOT region.
-PointCNN is just experimental not approved version.
+PointCNN is just experimental and not approved version for point cloud data.
 Preprocessing steps include calculation of PCA, features in 3D space like sphericity, linearity, planarity etc.
 Clustering methods - mostly DBSCAN, grid based methos like moving  average window for digital terrain model (DTM) processing.
 In the future I am planning to use pyspark or dask for establishing local workers and process massive point clouds. Utilizing parallel computing principles for time efficiency.
